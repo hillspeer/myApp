@@ -58,6 +58,11 @@ class A {
              a.bar();
          };
          new Thread(r3,"t3").start();
+        
+                 Runnable r4 = ()->{
+             a.bar();
+         };
+         new Thread(r4,"t4").start();
 
     }
     
