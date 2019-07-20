@@ -54,10 +54,10 @@ class A {
         };
         new Thread(r2,"t2").start();
         
-        // Runnable r3 = ()->{
-        //     a.bar();
-        // };
-        // new Thread(r3,"t3").start();
+         Runnable r3 = ()->{
+             a.bar();
+         };
+         new Thread(r3,"t3").start();
 
     }
     
