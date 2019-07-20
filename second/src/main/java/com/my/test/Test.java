@@ -10,7 +10,7 @@ class A {
     public synchronized void foo() {
         try {
             System.out.println("insie foo " + Thread.currentThread().getName());
-            Thread.sleep(4000);
+            Thread.sleep(200);
             //latch.await();
             
             //this.wait();
